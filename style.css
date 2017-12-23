@@ -19,7 +19,8 @@ body {
           color: #175199; }
     body .navigation_bg .navigation .zhihu_nav .top_form input[type="text"] {
       border-radius: 3px;
-      border: 1px solid #e7eaf1; }
+      border: 1px solid #e7eaf1;
+      background-color: #f7f8fa; }
   body .table_container .sections .sec_nav {
     background-color: #ffffff;
     height: 58px; }
