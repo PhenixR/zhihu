@@ -106,7 +106,8 @@
     width: 300px; }
     .table_container .sidebar .sidebar_catlog {
       margin-bottom: 10px;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      width: 300px; }
       .table_container .sidebar .sidebar_catlog .sidebar_catlog_ul {
         display: flex;
         flex-wrap: wrap; }
