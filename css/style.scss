@@ -43,7 +43,13 @@ body{
                     input[type="text"]{
                         border-radius: 3px;
                         border: 1px solid #e7eaf1;
-                        background-color: #f7f8fa
+                        background-color: #f7f8fa;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                    ::-webkit-input-placeholder {
+                    color: #8590a6;
                     }
                     .top_button_pic {
                     }
@@ -98,7 +104,7 @@ body{
                                     color: #262626;
                                     text-decoration: none;
                                     font-weight: 600;
-                                    font-size: 14px；
+                                    font-size: 14px;
                                 }
                             }
                             .writer_resume {
@@ -129,13 +135,41 @@ body{
                             border:none;
                             color: $hover;
                             background-color: #fff;
+                            &:focus {
+                                outline: none;
+                            }
                         }
                     }
                     .content_iteam_actions {
                         .article_attitude {
                             .article_attitude_button {
-                                border: none;
-                                background-color: #fff;
+                                color: #0084ff;
+                                background: rgba(0,132,255,.1);
+                                border-color: transparent;
+                                font-size: 15px;
+                                text-align: center;
+                                cursor: pointer;
+                                border-radius: 3px;
+                                line-height: 30px;
+                                padding: 0 12px;
+                                &:hover {
+                                    background-color: rgba(0,132,255,.15);
+                                }
+                                &:focus {
+                                    outline: none;
+                                }
+                                .VoteButton-upIcon {
+                                    fill: currentColor;
+                                    position: relative;
+                                    top:3px;
+                                    margin-right: 8px;
+                                }
+                                .VoteButton-downIcon {
+                                    fill: currentColor;
+                                    position: relative;
+                                    top:3px;
+                                    transform: rotate(180deg);
+                                }
                             }
                         }
                         .article_fooder {
@@ -143,12 +177,18 @@ body{
                                 .article_fooder_li {
                                     list-style-type: none;
                                     .article_fooder_li_button {
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
                                         border: none;
                                         background-color: #fff;
                                         color: #8590a6;
                                         font-size: 14px;
                                         &:hover {
                                             color: #555
+                                        }
+                                        &:focus {
+                                            outline: none;
                                         }
                                     }
                                 }
