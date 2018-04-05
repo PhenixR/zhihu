@@ -1,3 +1,3 @@
 # zhihu
-#DEMO
+# DEMO
 ![zhihu.gif](./img/zhihu.gif)
